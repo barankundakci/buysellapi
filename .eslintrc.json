@@ -1,0 +1,32 @@
+{
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+      "indent": "off",
+      "linebreak-style": ["windows"],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "max-len": [
+        1,
+        1000
+      ],
+      "global-require": 0,
+      "no-dynamic-require": 0,
+      "arrow-body-style": [
+        0,
+        "as-needed"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "object-curly-newline": ["error", {
+        "ImportDeclaration": "never"
+      }]
+    }
+  }
